@@ -1,6 +1,6 @@
-h, b = map(int, input().split())
+a, d = map(int, input().split())
 
-if h - b > 0:
-    print(h - b)
+if a <= d:
+    print("Yes")
 else:
-    print(0)
+    print("No")
